@@ -3,7 +3,7 @@ module com.fasterxml.jackson.datatype.jsr353 {
     requires com.fasterxml.jackson.core;
     requires com.fasterxml.jackson.databind;
 
-    requires javax.json.api;
+    requires jakarta.json.api;
 
     exports com.fasterxml.jackson.datatype.jsr353;
 

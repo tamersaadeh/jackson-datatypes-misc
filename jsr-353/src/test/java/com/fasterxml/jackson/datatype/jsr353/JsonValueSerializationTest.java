@@ -2,7 +2,7 @@ package com.fasterxml.jackson.datatype.jsr353;
 
 import java.math.BigDecimal;
 
-import javax.json.*;
+import jakarta.json.*;
 
 public class JsonValueSerializationTest extends TestBase
 {

@@ -2,10 +2,10 @@ package com.fasterxml.jackson.datatype.jsr353;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import javax.json.JsonMergePatch;
-import javax.json.JsonObject;
-import javax.json.JsonString;
-import javax.json.JsonValue;
+import jakarta.json.JsonMergePatch;
+import jakarta.json.JsonObject;
+import jakarta.json.JsonString;
+import jakarta.json.JsonValue;
 import java.util.Objects;
 
 import static org.hamcrest.CoreMatchers.instanceOf;

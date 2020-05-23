@@ -2,7 +2,7 @@ package com.fasterxml.jackson.datatype.jsr353;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import javax.json.*;
+import jakarta.json.*;
 
 import java.util.Objects;
 

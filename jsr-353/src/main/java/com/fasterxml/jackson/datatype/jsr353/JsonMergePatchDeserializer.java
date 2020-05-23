@@ -4,8 +4,8 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 
-import javax.json.Json;
-import javax.json.JsonMergePatch;
+import jakarta.json.Json;
+import jakarta.json.JsonMergePatch;
 import java.io.IOException;
 
 public class JsonMergePatchDeserializer extends StdDeserializer<JsonMergePatch> {

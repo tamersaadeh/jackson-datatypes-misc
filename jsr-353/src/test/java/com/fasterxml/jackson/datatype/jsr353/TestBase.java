@@ -2,7 +2,7 @@ package com.fasterxml.jackson.datatype.jsr353;
 
 import java.io.IOException;
 
-import javax.json.*;
+import jakarta.json.*;
 
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.json.JsonMapper;

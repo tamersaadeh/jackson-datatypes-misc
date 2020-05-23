@@ -7,8 +7,8 @@ import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.MapType;
 
-import javax.json.*;
-import javax.json.spi.JsonProvider;
+import jakarta.json.*;
+import jakarta.json.spi.JsonProvider;
 import java.util.Collections;
 
 public class JSR353Module extends SimpleModule

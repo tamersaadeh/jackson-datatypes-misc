@@ -3,7 +3,7 @@ package com.fasterxml.jackson.datatype.jsr353;
 import java.io.IOException;
 import java.util.Map;
 
-import javax.json.*;
+import jakarta.json.*;
 
 import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.core.type.WritableTypeId;

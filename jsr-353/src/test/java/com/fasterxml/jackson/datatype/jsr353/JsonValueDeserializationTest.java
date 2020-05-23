@@ -1,8 +1,8 @@
 package com.fasterxml.jackson.datatype.jsr353;
 
 import com.fasterxml.jackson.databind.json.JsonMapper;
-import javax.json.*;
-import javax.json.JsonValue.ValueType;
+import jakarta.json.*;
+import jakarta.json.JsonValue.ValueType;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -95,7 +95,7 @@ public class JsonValueDeserializationTest extends TestBase
         JsonValue v = MAPPER.convertValue(root, JsonValue.class);
         assertNotNull(v);
         assertEquals(ValueType.OBJECT, v.getValueType());
-        JsonValue v2 = ((javax.json.JsonObject) v).get("b");
+        JsonValue v2 = ((jakarta.json.JsonObject) v).get("b");
         assertNotNull(v2);
         assertEquals(ValueType.STRING, v2.getValueType());
         String str = ((JsonString) v2).getString();
